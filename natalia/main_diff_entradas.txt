@@ -1,0 +1,23 @@
+# Interestelar
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/Interestelar_2160x2880_120x160.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 9.0
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/Interestelar_2160x2880_180x240.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 6.0
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/Interestelar_2160x2880_240x320.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 4.5
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/Interestelar_2160x2880_300x400.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 3.6
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/Interestelar_2160x2880_360x480.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 3.0
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/Interestelar_2160x2880_480x640.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 2.25
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/Interestelar_2160x2880_600x800.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 1.8
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/Interestelar_2160x2880_720x960.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 1.5
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/Interestelar_2160x2880_768x1024.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 1.41
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/Interestelar_2160x2880_900x1200.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 1.2
+
+# MadMax
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/MadMax_809x1200_120x160.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 9.0
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/MadMax_809x1200_180x240.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 6.0
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/MadMax_809x1200_240x320.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 4.5
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/MadMax_809x1200_300x400.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 3.6
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/MadMax_809x1200_360x480.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 3.0
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/MadMax_809x1200_480x640.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 2.25
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/MadMax_809x1200_600x800.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 1.8
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/MadMax_809x1200_720x960.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 1.5
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/MadMax_809x1200_768x1024.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 1.41
+python inference_realesrgan.py -n RealESRGAN_x4plus -i natalia/resized/MadMax_809x1200_900x1200.jpg -o natalia/scaled_diff_entradas --fp32 --outscale 1.2
