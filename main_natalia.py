@@ -2,8 +2,8 @@ import os
 import subprocess
 
 # Directorios
-input_dir = r"C:\Users\nekos\OneDrive\Escritorio\MasOrange\originales\Set14_LR"
-output_dir = r"C:\Users\nekos\OneDrive\Escritorio\MasOrange\Real-ESRGAN\scaled_set14_x4"
+input_dir = r"E:\MasOrange\caratulas24\caratulas24_lr"
+output_dir = r"E:\MasOrange\Real-ESRGAN\scaled_caratulas24_x4"
 
 # Parámetros del comando
 model = "RealESRGAN_x4plus"
@@ -47,6 +47,6 @@ for image in images:
             print(f"Error al procesar {image}: {e}")
 
         # Detener después de 44 imágenes
-        if processed_count >= 14:
+        if processed_count >= 24:
             print("Se han procesado las primeras 44 imágenes. Deteniendo...")
             break
